@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+}
+
+body{
+    background: hsl(217, 19%,24%);
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    flex-direction: column;
+}
+
+main{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-container{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 35px;
+    border-radius: 15px;
+    background: hsl(217, 19%, 38%);
+    text-align: center;
+    position: relative;
+}
+
+#adviceTitle{
+    font-size: 16px;
+    letter-spacing: 3px;
+    text-transform:uppercase;
+    margin-bottom: 25px;
+    color: hsl(150, 100%, 66%);
+}
+
+#advice{
+    font-weight: 400;
+    font-size: 28px;
+    color: hsl(193, 38%, 86%);
+}
+
+.icon-pattern{
+    width: 100%;
+    margin: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+#left-line{
+    position: absolute;
+    display: block;
+    width: 45%;
+    height: 1px;
+    background-color: hsl(193, 38%, 86%);
+    left: 0;
+}
+#right-line{
+    position: absolute;
+    display: block;
+    width: 45%;
+    height: 1px;
+    background-color: hsl(193, 38%, 86%);
+    right: 0;
+}
+
+.refreshBtn-container{
+    position: absolute;
+    bottom: -35px;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(150, 100%, 66%);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.refreshBtn-container:hover{
+    box-shadow:  0 0 7px hsl(150, 100%, 66%), 
+               0 0 10px hsl(150, 100%, 66%), 
+               0 0 30px hsl(150, 100%, 66%, .8),
+               0 0 50px hsl(150, 100%, 66%, .5) 
+}
+
+#refreshBtn{
+    margin: 20px;
+}
+
+
+footer{
+    width: 100%;
+    position: absolute;
+    bottom: 10px;
+}
+.attribution{ 
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a{
+    color: hsl(228, 45%, 44%); 
+}
