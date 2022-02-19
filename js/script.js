@@ -21,9 +21,10 @@ const displayAdvice = async () =>{
 
 //function refreshes and shows new advice on screen
 const refreshAdvice = () =>{
-    const refreshBtn = document.getElementById('refreshBtn');
+    const refreshBtn = document.querySelector('.refreshBtn-container');
     refreshBtn.addEventListener('click', ()=>{
         displayAdvice();
+        console.log("try");
     } )
 }
 
